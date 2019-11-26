@@ -1,0 +1,61 @@
+
+
+print('Welcome to the email checking system, this system will help you to determine when to check the emails and how to be more efficient')
+
+emailcheck = input('Have you checked your emmail in the past 3 minutes?:')
+
+if emailcheck == 'yes':
+	boss = input('was it your boss?:')
+	if boss == 'yes':
+		print ('Please check your email!!')
+
+	else:
+		family = input('Was it your family?:')
+		if family == 'yes':
+			parent = input('parent you are avoiding?:')
+			if parent == 'yes':
+				print('What kind of son or daughter are you?')
+			else:
+				print('please check your email')
+		else:
+			facebook = input('someone from facebook?:')
+			if facebook == 'yes':
+				print ('Get off facebook')
+			else:
+				print('Good dont check')
+else:
+	withfamily = input('Are you with your family?:')
+	if withfamily == 'yes':
+		keepyourfamily = input('Do you want to keep your family?:')
+		if keepyourfamily == 'yes':
+			print('Do not check')
+		else:
+			print('By all means jerks, check')
+	else:
+		work = input('Are you at work?:')
+		if work == 'yes':
+			procrastinating = input('Are you Procrastinating?')
+			if procrastinating == 'yes':
+				incompleteaction = input('Do you want to continue this cycle of incomplete actions?:')
+				if incompleteaction == 'yes':
+					print('Fool Dont Check')
+				else:
+					print('dont check')
+			else:
+				lying = input('Are you lying to your self?:')
+				if lying != ' ':
+					print('Dont check')
+		else:
+			lottery = input('Are you expecting a Job offer, lottery notification or magic E-beans ?:')
+			if lottery == 'yes':
+				print('Seriously Ass!!!!!!!!!!!')
+			else:
+				print('do not check')
+
+
+
+
+	
+	
+
+
